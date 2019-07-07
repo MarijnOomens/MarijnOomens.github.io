@@ -1,0 +1,395 @@
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="https://kit.fontawesome.com/f5abf0d9fd.js"></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VigorousVoyage</title>
+  </head>
+
+  <body id="home" class="scrollspy">
+    <!-- Main navigation -->
+    <div class="navbar-fixed">
+      <nav class="green">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">VigorousVoyage</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#search">Search</a></li>
+              <li><a href="#popular">Popular Locations</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Mobile navigation -->
+    <ul class="sidenav" id="mobile-nav">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#search">Search</a></li>
+      <li><a href="#popular">Popular Locations</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- Slider -->
+
+    <section class="slider">
+      <ul class="slides">
+        <li>
+          <img src="res/morocco.jpg" />
+          <div class="caption center-align">
+            <h2 class="green-text">Mysteries of Morocco</h2>
+            <h5 class="grey-text text-lighten-3 hide-on-small-only">
+              Explore the land of a thousand fables. Be amazed by culture,
+              history and cuisine.
+            </h5>
+          </div>
+        </li>
+        <li>
+          <img src="res/norway.jpg" />
+          <div class="caption left-align">
+            <h2 class="green-text">Norwegian adventure</h2>
+            <h5 class="grey-text text-lighten-3 hide-on-small-only">
+              Climb mountains and sail through frojds in this trip through the
+              country of the Vikings.
+            </h5>
+          </div>
+        </li>
+        <li>
+          <img src="res/south_africa.jpg" />
+          <div class="caption right-align">
+            <h2 class="green-text">Close to nature in South Africa</h2>
+            <h5 class="grey-text text-lighten-3 hide-on-small-only">
+              Spot the Big Five and take a ride through flat savannah and steep
+              mountains in this diverse coutry.
+            </h5>
+          </div>
+        </li>
+        <li>
+          <img src="res/poland.jpg" />
+          <div class="caption center-align">
+            <h2 class="green-text">Polish culture and history trip</h2>
+            <h5 class="grey-text text-lighten-3 hide-on-small-only">
+              Visit age-old architectural masterpeices and come in contact with
+              the Polish culture in this 3-day voyage.
+            </h5>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Search -->
+    <section
+      id="search"
+      class="section section-search green darken-1 white-text center scrollspy"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h3>Search destinations</h3>
+            <div class="input-field">
+              <input
+                type="text"
+                class="white grey-text autocomplete"
+                id="autocomplete-input"
+                placeholder="Fiji, Greece, etc."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Icons -->
+    <section class="section section-icons grey lighten-4 center">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="card-panel">
+              <i class="material-icons large green-text">room</i>
+              <h4>Choose your location</h4>
+              <p>
+                We offer our customers a wide choice of locations, from relaxing
+                beach resorts in Greece to small mountain huts in Norway.
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card-panel">
+              <i class="material-icons large green-text">store</i>
+              <h4>Book your journey</h4>
+              <p>
+                After you have chosen your ideal holiday destination, book fast
+                and secure via our website and recieve you tickets and
+                reservation documents via email.
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card-panel">
+              <i class="material-icons large green-text">airplanemode_active</i>
+              <h4>Fly and enjoy</h4>
+              <p>
+                Experience a no-stress voyage thanks to our After Book Service®,
+                which includes a cash back guarantee and a 24-hour support line.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular -->
+    <section id="popular" class="section section-popular scrollspy">
+      <div class="container">
+        <div class="row">
+          <h4 class="center">Popular destinations</h4>
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="res/morocco_high_res.jpg" alt="" />
+                <span class="card-title">Morocco</span>
+              </div>
+              <div class="card-content">
+                Morocco's Mediterranean climate is similar to that of southern
+                California, with lush forests in the northern and central
+                mountain ranges of the country, giving way to drier conditions
+                and inland deserts further southeast. The Moroccan coastal
+                plains experience remarkably moderate temperatures even in
+                summer, owing to the effect of the cold Canary Current off its
+                Atlantic coast.
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="res/south_africa_high_res.jpg" alt="" />
+                <span class="card-title">South Africa</span>
+              </div>
+              <div class="card-content">
+                South Africa has a generally temperate climate, due in part to
+                being surrounded by the Atlantic and Indian Oceans on three
+                sides, by its location in the climatically milder Southern
+                Hemisphere and due to the average elevation rising steadily
+                towards the north (towards the equator) and further inland. Due
+                to this varied topography and oceanic influence, a great variety
+                of climatic zones exist.
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="res/norway_high_res.jpg" alt="" />
+                <span class="card-title">Norway</span>
+              </div>
+              <div class="card-content">
+                From late May to late July, the sun
+                never completely descends beneath the horizon in areas north of
+                the Arctic Circle, and the rest of the country experiences up
+                to 20 hours of daylight per day. Conversely, from late November
+                to late January, the sun never rises above the horizon in the
+                north, and daylight hours are very short in the rest of the
+                country. Norway is sometimes called "The Land of the Midnight Sun".
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social media -->
+    <section class="section section-follow green darken-2 white-text center">
+      <div class="container">
+        <div class="row">
+          <div class="col-s12">
+            <h4>Follow VigorousVoyage</h4>
+            <p>Follow us on these social media platforms</p>
+            <a href="#!" class="white-text"><i class="fab fa-facebook fa-4x"></i></a>
+            <a href="#!" class="white-text"><i class="fab fa-twitter fa-4x"></i></a>
+            <a href="#!" class="white-text"><i class="fab fa-linkedin fa-4x"></i></a>
+            <a href="#!" class="white-text"><i class="fab fa-instagram fa-4x"></i></a>
+            <a href="#!" class="white-text"><i class="fab fa-vk fa-4x"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section section-gallery scrollspy">
+      <div class="container">
+        <h4 class="center">Photo gallery</h4>
+        <div class="row">
+          <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1920x1080/?mountain" alt="" class="materialboxed responsive-img">
+          </div>
+          <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1920x1080/?beach" alt="" class="materialboxed responsive-img">
+          </div>
+          <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1920x1080/?landscape" alt="" class="materialboxed responsive-img">
+          </div>
+          <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1920x1080/?peru" alt="" class="materialboxed responsive-img">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1920x1080/?greece" alt="" class="materialboxed responsive-img">
+          </div>
+          <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1920x1080/?spain" alt="" class="materialboxed responsive-img">
+          </div>
+          <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1920x1080/?russia" alt="" class="materialboxed responsive-img">
+          </div>
+          <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1920x1080/?travel" alt="" class="materialboxed responsive-img">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1920x1080/?africa" alt="" class="materialboxed responsive-img">
+          </div>
+          <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1920x1080/?desert" alt="" class="materialboxed responsive-img">
+          </div>
+          <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1920x1080/?tundra" alt="" class="materialboxed responsive-img">
+          </div>
+          <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1920x1080/?fjord" alt="" class="materialboxed responsive-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact section scrollspy">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card-panel green white-text center">
+              <i class="material-icons">email</i>
+              <h5>Contact us for booking</h5>
+              <p>Get in contact with us for any and all of your inquiries about our locations, booking, the booking process or services.</p>
+            </div>
+            <ul class="collection with-header">
+              <li class="collection-header">
+                <h4>Location</h4>
+              </li>
+              <li class="collection-item">
+                VigorousVoyage Inc.
+              </li>
+              <li class="collection-item">
+                20 Brisbane Street
+              </li>
+              <li class="collection-item">
+                Douglas, Isle of Mann, UK
+              </li>
+            </ul>
+          </div>
+          <div class="col s12 m6">
+            <div class="card-panel grey lighten-3">
+                <h5>Please fill out this form</h5>
+                <div class="input-field">
+                  <input id="name" type="text" class="validate">
+                  <label for="name">Name</label>
+                </div>
+
+                <div class="input-field">
+                  <input id="email" type="text" class="validate">
+                  <label for="email">Email</label>
+                </div>
+
+                <div class="input-field">
+                  <input id="phone" type="text" class="validate">
+                  <label for="phone">Phone</label>
+                </div>
+
+                <div class="input-field">
+                  <textarea id="message" class="materialize-textarea"></textarea>
+                  <label for="message">Message</label>
+                </div>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                  <i class="material-icons right">send</i>
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section green darken-2 white-text center">
+      <p class="flow-text">VogorousVoyage &copy; 2019</p>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      // Mobile nav
+      const nav = document.querySelector(".sidenav");
+      M.Sidenav.init(nav, {});
+
+      // Slider
+      const slider = document.querySelector(".slider");
+      M.Slider.init(slider, {
+        indicators: false,
+        height: 500,
+        transition: 500,
+        interval: 5000
+      });
+
+      // Autocomplete
+      const auto = document.querySelector(".autocomplete");
+      M.Autocomplete.init(auto, {
+        data: {
+          Alkmaar: null,
+          Amsterdam: null,
+          "Den Bosch": null,
+          Colombia: null,
+          "New York": null,
+          Santorini: null,
+          Morocco: null,
+          Norway: null,
+          "Sout Africa": null,
+          Fiji: null,
+          Poland: null,
+          Russia: null,
+          Paris: null,
+          Greece: null
+        }
+      });
+
+      // Material boxed
+      const media = document.querySelectorAll('.materialboxed');
+      M.Materialbox.init(media,{});
+
+      // Scrollspy
+      const scrollspy = document.querySelectorAll('.scrollspy');
+      M.ScrollSpy.init(scrollspy,{});
+
+    </script>
+  </body>
+</html>
